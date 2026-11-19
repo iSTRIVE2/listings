@@ -253,4 +253,4 @@ Houston, TX 77057</div></div></div></div>
   document.addEventListener('click',e=>{const a=e.target.closest&&e.target.closest('.foot a');if(!a)return;const h=a.getAttribute('href')||'';if(h.indexOf('data:application/pdf')!==0)return;e.preventDefault();const w=window.open('about:blank','_blank');fetch(h).then(r=>r.blob()).then(b=>{const u=URL.createObjectURL(b);if(w)w.location.href=u;else location.href=u})});
   addEventListener('hashchange',route);route();
 })();</script>
-<!-- built 2026-11-19T02:19:16.555Z · new design --></body></html>
+<!-- built 2026-11-19T02:20:47.132Z · new design --></body></html>
